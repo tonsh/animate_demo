@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+
+        <style type="text/css">
+            @keyframes pound {
+                100% {
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+
+            .dot {
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+                cursor: pointer;
+                animation: pound .9s infinite;
+            }
+            .red {
+                background-color: #DD4340;
+            }
+        </style>
+    </head>
+
+    <body>
+        <ul>
+            <li class="dot red"></li>
+        </ul>
+    </body>
+</html>
